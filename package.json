@@ -18,12 +18,21 @@
   "bugs": {
     "url": "https://github.com/Brauxel/my-test-apps-react-playgound/issues"
   },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
   "homepage": "https://github.com/Brauxel/my-test-apps-react-playgound#readme",
   "devDependencies": {
     "@types/lodash": "^4.14.172",
+    "@types/react": "^17.0.17",
+    "@types/react-dom": "^17.0.9",
     "@typescript-eslint/eslint-plugin": "^4.29.1",
     "@typescript-eslint/parser": "^4.29.1",
     "eslint": "^7.32.0",
+    "eslint-config-airbnb-typescript": "^12.3.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.24.0",
     "eslint-plugin-jsx-a11y": "^6.4.1",
