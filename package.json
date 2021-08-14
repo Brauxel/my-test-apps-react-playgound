@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/Brauxel/my-test-apps-react-playgound#readme",
   "devDependencies": {
+    "@tsconfig/create-react-app": "^1.0.2",
     "@types/lodash": "^4.14.172",
     "@types/react": "^17.0.17",
     "@types/react-dom": "^17.0.9",

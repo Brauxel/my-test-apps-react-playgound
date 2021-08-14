@@ -1,3 +1,7 @@
-import React from 'react'
+import { Form } from './shared/organisms/Form'
 
-export const App = () => <div>Welcome to your react app</div>
+export const App = () => (
+  <div>
+    <Form />
+  </div>
+)
